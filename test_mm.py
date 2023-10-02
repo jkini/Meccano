@@ -12,7 +12,6 @@ import encoder
 import os
 from datetime import timedelta
 import numpy as np
-from visualization import EvaluationGraphs
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, top_k_accuracy_score
 import config as cfg
 
