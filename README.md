@@ -28,5 +28,9 @@ Download following components of the Meccano dataset from the [official website]
 [Action annotations](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_action_annotations.zip)
 
 ## Pre-trained weights
-RGB with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/14cUWo31X8PBNY61brvzHs2ORkG9dhILi?usp=drive_link) <br>
-Depth with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/1ecY5T4nLv0ztMarPS02oBASTeIzfi2pO?usp=drive_link)
+SWIN3D-Base with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/195ecPNdP_f_ds7aBUeIWf4z714OxpVQu?usp=drive_link) <br>
+**Ours** (RGB) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/14cUWo31X8PBNY61brvzHs2ORkG9dhILi?usp=drive_link) <br>
+**Ours** (Depth) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/1ecY5T4nLv0ztMarPS02oBASTeIzfi2pO?usp=drive_link)
+
+## We Credit
+Thanks to https://github.com/SwinTransformer/Video-Swin-Transformer, for the preliminary implementations.
