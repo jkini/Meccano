@@ -14,7 +14,6 @@ from datetime import timedelta
 import csv
 import numpy as np
 from sklearn.utils import compute_class_weight
-from visualization import EvaluationGraphs
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, top_k_accuracy_score
 import config as cfg
 
