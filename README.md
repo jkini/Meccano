@@ -28,9 +28,30 @@ Download following components of the Meccano dataset from the [official website]
 [Action annotations](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_action_annotations.zip)
 
 ## Pre-trained weights
-SWIN3D-Base with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/195ecPNdP_f_ds7aBUeIWf4z714OxpVQu?usp=drive_link) <br>
+We use the Swin3D-B backbone, which is pre-trained on the SomethingSomething v2 dataset.<br>
+Swin3D-B with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/195ecPNdP_f_ds7aBUeIWf4z714OxpVQu?usp=drive_link) <br>
+
+The RGB frames and Depth maps are passed through two independently trained Swin3D-B encoders. The resultant class probabilities, obtained from each pathway, are averaged to subsequently yield action classes. <br>
 **Ours** (RGB) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/14cUWo31X8PBNY61brvzHs2ORkG9dhILi?usp=drive_link) <br>
 **Ours** (Depth) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/1ecY5T4nLv0ztMarPS02oBASTeIzfi2pO?usp=drive_link)
 
 ## We Credit
 Thanks to https://github.com/SwinTransformer/Video-Swin-Transformer, for the preliminary implementations.
+
+## Citation
+````
+@article{kini2023ensemble,
+  title={Ensemble Modeling for Multimodal Visual Action Recognition},
+  author={Kini, Jyoti and Fleischer, Sarah and Dave, Ishan and Shah, Mubarak},
+  journal={arXiv preprint arXiv:2308.05430},
+  year={2023}
+}
+
+@article{kini2023egocentric,
+  title={Egocentric RGB+Depth Action Recognition in Industry-Like Settings},
+  author={Kini, Jyoti and Fleischer, Sarah and Dave, Ishan and Shah, Mubarak},
+  journal={arXiv preprint arXiv:2309.13962},
+  year={2023}
+}
+
+````
