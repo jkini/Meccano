@@ -72,7 +72,7 @@ Thanks to https://github.com/SwinTransformer/Video-Swin-Transformer, for the Swi
 }
 
 @article{kini2023egocentric,
-  title={Egocentric RGB+Depth Action Recognition in Industry-Like Settings},
+  title={Egocentric RGB+ Depth Action Recognition in Industry-Like Settings},
   author={Kini, Jyoti and Fleischer, Sarah and Dave, Ishan and Shah, Mubarak},
   journal={arXiv preprint arXiv:2309.13962},
   year={2023}
