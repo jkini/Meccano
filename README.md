@@ -22,10 +22,34 @@ pip install pandas
 pip install seaborn
 ````
 ## Dataset preparation
-Download following components of the Meccano dataset from the [official website](https://iplab.dmi.unict.it/MECCANO/challenge.html): <br>
+Download the following components of the Meccano dataset from the [official website](https://iplab.dmi.unict.it/MECCANO/challenge.html): <br>
 [RGB frames](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_RGB_frames.zip) <br>
 [Depth frames](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_Depth_frames.zip) <br>
-[Action annotations](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_action_annotations.zip)
+[Action annotations](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_action_annotations.zip) <br> 
+Update config.py [`data_dir`] to reflect the dataset location.
+
+## Training
+We train individual modalities RGB and Depth. <br>
+
+Update config.py [`train_run_id`, `train_modality`, `train_weights_dir`, `train_ss_wt_file`] to reflect the relevant details.<br>
+
+Run:
+````
+python -u train.py
+````
+## Testing ( individual modalities OR ensemble)
+1. Test individual modalities RGB and Depth. <br><br>
+Update config.py [`test_wt_file`, `test_modality`] to reflect the relevant details.<br><br>
+Run:
+````
+python -u test.py
+````
+2. Obtain class probabilities averaged from RGB and Depth pathways (${\color{red}Competition~Result}$).<br><br>
+Update config.py [`test_wt_file_1`, `test_wt_file_2`] to reflect the relevant details.<br><br>
+Run:
+````
+python -u test_mm.py
+````
 
 ## Pre-trained weights
 We use the Swin3D-B backbone, which is pre-trained on the SomethingSomething v2 dataset.<br>
@@ -48,7 +72,7 @@ Thanks to https://github.com/SwinTransformer/Video-Swin-Transformer, for the pre
 }
 
 @article{kini2023egocentric,
-  title={Egocentric RGB+Depth Action Recognition in Industry-Like Settings},
+  title={Egocentric RGB+ Depth Action Recognition in Industry-Like Settings},
   author={Kini, Jyoti and Fleischer, Sarah and Dave, Ishan and Shah, Mubarak},
   journal={arXiv preprint arXiv:2309.13962},
   year={2023}
