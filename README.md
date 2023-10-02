@@ -79,3 +79,5 @@ Thanks to https://github.com/SwinTransformer/Video-Swin-Transformer, for the pre
 }
 
 ````
+## Contact
+If you have any inquiries or require assistance, please reach out to Jyoti Kini (jyoti.kini@ucf.edu).
