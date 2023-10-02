@@ -22,7 +22,7 @@ pip install pandas
 pip install seaborn
 ````
 ## Dataset preparation
-Download following components of the Meccano dataset from the official website:
+Download following components of the Meccano dataset from the official website: <br>
 [RGB frames](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_RGB_frames.zip) <br>
 [Depth frames](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_Depth_frames.zip) <br>
 [Action annotations](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_action_annotations.zip)
