@@ -60,7 +60,7 @@ The RGB frames and Depth maps are passed through two independently trained Swin3
 **Ours** (Depth) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/1ecY5T4nLv0ztMarPS02oBASTeIzfi2pO?usp=drive_link)
 
 ## We Credit
-Thanks to https://github.com/SwinTransformer/Video-Swin-Transformer, for the preliminary implementations.
+Thanks to https://github.com/SwinTransformer/Video-Swin-Transformer, for the Swin3D-B implementation.
 
 ## Citation
 ````
