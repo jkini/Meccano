@@ -136,6 +136,7 @@ if __name__ == '__main__':
 
     print('++++++++++++++++++++++++++++++')
     run_id = cfg.train_run_id
+    os.makedirs(os.path.join(weights_dir, str(run_id)), exist_ok=True)
     print(f'Run ID: {run_id}') 
     print('++++++++++++++++++++++++++++++')
 
