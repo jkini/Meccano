@@ -1,5 +1,5 @@
 # Ensemble Modeling for Multimodal Visual Action Recognition
-Official code repo for Ensemble Modeling for Multimodal Visual Action Recognition [ICIAP-W 2023] 
+Official code repo for Ensemble Modeling for Multimodal Visual Action Recognition [ICIAP-W 2023 ${\color{red}Competition~Winner}$]
 [Project](https://www.crcv.ucf.edu/research/projects/ensemble-modeling-for-multimodal-visual-action-recognition/) and 
 [Arxiv](https://arxiv.org/pdf/2308.05430.pdf)
 
@@ -22,7 +22,7 @@ pip install pandas
 pip install seaborn
 ````
 ## Dataset preparation
-Download following components of the Meccano dataset from the official website: <br>
+Download following components of the Meccano dataset from the [official website](https://iplab.dmi.unict.it/MECCANO/challenge.html): <br>
 [RGB frames](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_RGB_frames.zip) <br>
 [Depth frames](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_Depth_frames.zip) <br>
 [Action annotations](https://iplab.dmi.unict.it/sharing/MECCANO/MECCANO_action_annotations.zip)
