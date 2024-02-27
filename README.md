@@ -53,11 +53,11 @@ python -u test_mm.py
 
 ## Pre-trained weights
 We use the Swin3D-B backbone, which is pre-trained on the SomethingSomething v2 dataset.<br>
-Swin3D-B with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/195ecPNdP_f_ds7aBUeIWf4z714OxpVQu?usp=drive_link) <br>
+Swin3D-B with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/uc?export=download&id=1B14MhWCYm9eEy8MW6DqKqioZWkCvs0A0) <br>
 
 The RGB frames and Depth maps are passed through two independently trained Swin3D-B encoders. The resultant class probabilities, obtained from each pathway, are averaged to subsequently yield action classes. <br>
-**Ours** (RGB) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/14cUWo31X8PBNY61brvzHs2ORkG9dhILi?usp=drive_link) <br>
-**Ours** (Depth) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/drive/folders/1ecY5T4nLv0ztMarPS02oBASTeIzfi2pO?usp=drive_link)
+**Ours** (RGB) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/uc?export=download&id=1gRV8iIJkxV6sCgDuLF_bq9VuS5h3P4HJ) <br>
+**Ours** (Depth) with Something-Something v2 pre-training: [Google Drive](https://drive.google.com/uc?export=download&id=1QVz8LNyXae14GuoOpqQI9SnJN9qRlQLL)
 
 ## We Credit
 Thanks to https://github.com/SwinTransformer/Video-Swin-Transformer, for the Swin3D-B implementation.
